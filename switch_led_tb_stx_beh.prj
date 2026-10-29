@@ -1,0 +1,2 @@
+vhdl isim_temp "switch_led.vhd"
+vhdl isim_temp "switch_led_tb.vhd"

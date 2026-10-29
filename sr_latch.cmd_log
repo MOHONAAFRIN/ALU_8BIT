@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Documents/CSE_450/Register/computer/sr_latch.xst" -ofn "/home/ise/Documents/CSE_450/Register/computer/sr_latch.syr" 

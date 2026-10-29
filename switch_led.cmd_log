@@ -1,0 +1,3 @@
+vhdtdtfi -lib work switch_led.vhd -prj computer -o switch_led.spl -module switch_led -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 switch_led.spl /home/rashed/computer/switch_led.sym 
+xst -intstyle ise -ifn "/home/rashed/computer/switch_led.xst" -ofn "/home/rashed/computer/switch_led.syr" 
