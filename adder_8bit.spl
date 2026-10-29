@@ -1,0 +1,8 @@
+[Inputs]
+CIN
+=A[7:0]=
+=B[7:0]=
+[Outputs]
+COUT
+=SUM[7:0]=
+[BiDir]
