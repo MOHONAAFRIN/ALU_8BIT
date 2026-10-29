@@ -1,0 +1,8 @@
+[Inputs]
+=A[7:0]=
+=B[7:0]=
+=SEL[2:0]=
+[Outputs]
+COUT
+=Y[7:0]=
+[BiDir]

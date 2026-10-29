@@ -1,0 +1,4 @@
+vhdtdtfi -prj computer -o alu_8bit.spl -module alu_8bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work nand_gate.vhd -lib work not_gate.vhd -lib work xor_gate.vhd -lib work and_gate.vhd -lib work or_gate.vhd -lib work half_adder.vhd -lib work full_adder.vhd -lib work adder_4bit.vhd -lib work mux4.vhd -lib work mux2.vhd -lib work adder_8bit.vhd -lib work alu_8bit.vhd -prj computer -o alu_8bit.spl -module alu_8bit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 alu_8bit.spl /home/ise/vlsi/computer/alu_8bit.sym 
+xst -intstyle ise -ifn "/home/ise/vlsi/computer/alu_8bit.xst" -ofn "/home/ise/vlsi/computer/alu_8bit.syr" 
